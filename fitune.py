@@ -1,7 +1,7 @@
 # train_lora.py
 # ------------------------------------------------------------
 # Title: LoRA Fine-tuning Script for LLMs (e.g., LLaMA / Qwen)
-# Author: Hao Wu
+# Author: Weidong Li
 # Date: 2025-11-12
 # Description:
 #   This script fine-tunes a large language model (LLM) using
