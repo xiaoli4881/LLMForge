@@ -15,7 +15,7 @@ class Prompter(object):
         if not template_name:
             # Enforce the default here, so the constructor can be called with '' and will not break.
             template_name = "alpaca"
-        file_name = "/keeson/code/lwd/model/med_template.json"
+        file_name = "med_template.json"
         if not osp.exists(file_name):
             raise ValueError(f"Can't read {file_name}")
         with open(file_name, encoding='utf-8') as fp:
